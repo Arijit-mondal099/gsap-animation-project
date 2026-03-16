@@ -8,6 +8,7 @@ import Hero from "./sections/Hero";
 import Message from "./sections/Message";
 import Flavor from "./sections/Flavor";
 import Nutrition from "./sections/Nutrition";
+import Benefit from "./sections/Benefit";
 
 // gsap plugins
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
@@ -30,6 +31,7 @@ const App = () => {
           <Message />
           <Flavor />
           <Nutrition />
+          <Benefit />
           <div className="min-h-dvh"></div>
         </div>
       </div>
