@@ -10,6 +10,7 @@ import Flavor from "./sections/Flavor";
 import Nutrition from "./sections/Nutrition";
 import Benefit from "./sections/Benefit";
 import Testimonial from "./sections/Testimonial";
+import Footer from "./sections/Footer";
 
 // gsap plugins
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
@@ -37,7 +38,8 @@ const App = () => {
             <Benefit />
             <Testimonial />
           </div>
-          <div className="min-h-dvh"></div>
+
+          <Footer />
         </div>
       </div>
     </main>
